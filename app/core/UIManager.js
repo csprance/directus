@@ -46,7 +46,8 @@ define(function(require, exports, module) {
     require('core/uis/markdown'),
     require('core/uis/multiple_files'),
     require('core/uis/translation'),
-    require('core/uis/template_chooser')
+    require('core/uis/template_chooser'),
+    require('core/uis/ckeditor/ckeditor')
   ]);
 
   var jQuery = require('jquery');

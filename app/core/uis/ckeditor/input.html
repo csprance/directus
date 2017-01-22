@@ -1,0 +1,10 @@
+<!-- Create the CKEditor container -->
+<form action="">
+    <textarea name="ckeditor_{{name}}" id="ckeditor_{{name}}" row="10" cols="80">
+    {{value}}
+    </textarea>
+</form>
+
+<!--This is what actually gets sent back to the db-->
+<!--We need to update this on each text-change-->
+<input type="hidden" name="{{name}}" class="hidden_input" id="ckeditor_value_{{name}}" value="{{value}}">
